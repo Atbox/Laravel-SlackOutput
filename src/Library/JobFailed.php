@@ -1,6 +1,6 @@
 <?php
 
-namespace NicolasMahe\SlackOutput\Library;
+namespace Atbox\SlackOutput\Library;
 
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Queue\Events\JobFailed as JB;

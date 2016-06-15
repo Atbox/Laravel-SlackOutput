@@ -1,9 +1,9 @@
 <?php
 
-namespace NicolasMahe\SlackOutput\Facade;
+namespace Atbox\SlackOutput\Facade;
 
 use Illuminate\Support\Facades\Facade;
-use NicolasMahe\SlackOutput\Service;
+use Atbox\SlackOutput\Service;
 
 class SlackOutput extends Facade
 {

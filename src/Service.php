@@ -1,15 +1,15 @@
 <?php
 
-namespace NicolasMahe\SlackOutput;
+namespace Atbox\SlackOutput;
 
 use Illuminate\Console\Scheduling\Event;
 use Illuminate\Queue\Events\JobFailed;
 use Exception;
 
-use NicolasMahe\SlackOutput\Library\ScheduledCommand;
-use NicolasMahe\SlackOutput\Library\Stats;
-use NicolasMahe\SlackOutput\Library\JobFailed as JF;
-use NicolasMahe\SlackOutput\Library\Exception as E;
+use Atbox\SlackOutput\Library\ScheduledCommand;
+use Atbox\SlackOutput\Library\Stats;
+use Atbox\SlackOutput\Library\JobFailed as JF;
+use Atbox\SlackOutput\Library\Exception as E;
 
 class Service
 {

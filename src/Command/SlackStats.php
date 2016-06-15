@@ -1,9 +1,9 @@
 <?php
 
-namespace NicolasMahe\SlackOutput\Command;
+namespace Atbox\SlackOutput\Command;
 
 use Illuminate\Console\Command;
-use NicolasMahe\SlackOutput\Facade\SlackOutput;
+use Atbox\SlackOutput\Facade\SlackOutput;
 
 class SlackStats extends Command
 {

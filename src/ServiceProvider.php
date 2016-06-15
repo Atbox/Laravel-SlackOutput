@@ -1,6 +1,6 @@
 <?php
 
-namespace NicolasMahe\SlackOutput;
+namespace Atbox\SlackOutput;
 
 use Illuminate\Support\ServiceProvider as ServiceProviderParent;
 
